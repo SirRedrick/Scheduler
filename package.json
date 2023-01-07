@@ -12,8 +12,9 @@
     "seed": "node -r esbuild-runner/register ./server/database/seed.ts"
   },
   "dependencies": {
+    "@floating-ui/react": "^0.16.0",
     "@heroicons/react": "^2.0.13",
-    "@next/font": "^13.0.7",
+    "@next/font": "^13.1.1",
     "@prisma/client": "^4.7.1",
     "@types/node": "18.11.10",
     "@types/react": "18.0.26",
@@ -21,7 +22,7 @@
     "autoprefixer": "^10.4.13",
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.6",
-    "next": "^13.0.7",
+    "next": "^13.1.1",
     "postcss": "^8.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
